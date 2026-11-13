@@ -1,0 +1,27 @@
+# Local settings, credentials, runtime data
+.env
+.env.*
+*.local.json
+local.properties
+**/local.properties
+*.keystore
+*.jks
+*.log
+*.pcap
+*.pcapng
+settings.json
+# Generated builds and screenshots
+/dist/
+/android/.gradle/
+/android/build/
+/android/app/build/
+/android/app/libs/
+**/__pycache__/
+*.pyc
+# Private project planning is kept outside this repository
+*HANDOFF*
+*ROADMAP*
+*handoff*
+*roadmap*
+*.pem
+*.key

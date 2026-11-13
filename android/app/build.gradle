@@ -1,0 +1,15 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'org.minecraftlan.broadcaster'
+ compileSdk 35
+ defaultConfig {
+  applicationId 'org.minecraftlan.broadcaster'
+  minSdk 26
+  targetSdk 35
+  versionCode 1
+  versionName '0.1.0-test'
+  ndk { abiFilters 'arm64-v8a' }
+ }
+ buildTypes { debug { debuggable true } }
+}
+dependencies { implementation files('libs/connector.aar') }

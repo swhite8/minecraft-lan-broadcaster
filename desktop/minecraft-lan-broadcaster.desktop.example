@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Minecraft LAN Broadcaster
+Comment=Control Bedrock and Java LAN broadcasts
+Exec=/INSTALL_PATH/minecraft-lan-broadcaster/start-gui.sh
+Path=/INSTALL_PATH/minecraft-lan-broadcaster
+Icon=/INSTALL_PATH/minecraft-lan-broadcaster/assets/minecraft-lan-broadcaster-icon.png
+Terminal=false
+Categories=Game;Network;
+StartupNotify=true
+StartupWMClass=org.minecraftlan.broadcaster.desktop
